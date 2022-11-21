@@ -17,10 +17,11 @@ Your task is to build a product analytics “session streaming” tool that allo
 
 ### Required Functionality
 
-- [ ] The product manager should be able to see the list of all currently active sessions (just showing session id’s is fine)
-- [ ] The product manager should be able to watch any active session in real-time
+- [ ] The product manager should be able to see the **list of all currently active sessions** (just showing session id’s is fine)
+- [ ] The product manager should be able to **watch any active session in real-time**
 - [ ] Since this is realtime streaming, latency is important! Consider using websockets
-      `Latency of event E = Time E observed by PM - Time of E in user session`
+
+      Latency of event E = Time E observed by PM - Time of E in user session
 - [ ] **(Bonus)** Measure the latency and display it for the product manager to see while watching sessions. For example, display ‘X ms delayed’ while PM is watching the session
 
 # nooks-streamdom-challenge
